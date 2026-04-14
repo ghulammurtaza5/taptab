@@ -1,0 +1,23 @@
+{
+  "name": "tapin-gotab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tapin <> GoTab payment integration backend module",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "typescript": "^5.4.5"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/__tests__/**/*.test.ts"],
+    "clearMocks": true
+  }
+}
